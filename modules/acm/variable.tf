@@ -2,19 +2,19 @@
 variable "domain_name" {
   description = "Primary domain name for the certificate"
   type        = string
-  default     = "infrasolutionsystems.org"
+  default     = "victortech.org"
 }
 
 variable "san_domains" {
   description = "Subject alternative names for the certificate"
   type        = list(string)
-  default     = ["*.infrasolutionsystems.org"]
+  default     = ["*.victortech.org"]
 }
 
 variable "route53_zone_id" {
   description = "Route 53 Hosted Zone ID"
   type        = string
-  default     = "Z0299831RRTIA7LI6FAC" # Replace with actual Route 53 Zone ID
+  default     = "Z0703897IPUC8U61FOGI" # Replace with actual Route 53 Zone ID
 }
 
 variable "tags" {
