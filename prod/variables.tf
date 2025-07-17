@@ -5,7 +5,7 @@
 variable "aws_account_id" {
   description = "AWS Account ID"
   type        = string
-  default     = "831926583884"
+  default     = "412381772018"
 }
 
 variable "aws_region" {
@@ -52,7 +52,7 @@ variable "cluster_name" {
 variable "rolearn" {
   description = "IAM role ARN to be added to the aws-auth configmap as admin"
   type        = string
-  default     = "arn:aws:iam::831926583884:role/terraform-create-role"
+  default     = "arn:aws:iam::412381772018:role/terraform-create-role"
 }
 
 
@@ -85,19 +85,19 @@ variable "key_name" {
 variable "domain_name" {
   description = "Primary domain name for certificate issuance"
   type        = string
-  default     = "infrasolutionsystems.org"
+  default     = "victortech.org"
 }
 
 variable "san_domains" {
   description = "SANs (Subject Alternative Names) for SSL certificate"
   type        = list(string)
-  default     = ["*.infrasolutionsystems.org"]
+  default     = ["*.victortech.org"]
 }
 
 variable "route53_zone_id" {
   description = "Route 53 hosted zone ID for domain validation"
   type        = string
-  default     = "Z0299831RRTIA7LI6FAC"
+  default     = "Z0703897IPUC8U61FOGI"
 }
 
 ################################################################################
