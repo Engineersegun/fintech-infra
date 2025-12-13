@@ -33,7 +33,7 @@ Follow these steps to explore or contribute to the infrastructure:
 
 1.  **AWS Account:** Access to an AWS account with necessary IAM permissions.
 2.  **AWS CLI:** Configured locally with your credentials.
-3.  **Terraform:** Installed locally (version X.X.X recommended).
+3.  **Terraform:** Installed locally (latest version recommended).
 
 ### 1. Clone the Repository
 
